@@ -8,23 +8,23 @@
   
   value=value.toLowerCase();
 
-  if(value=="jisoo"){
-    console.log("User entered Jisooo");
+  if(value=="honey"){
+    console.log("User entered Honey");
     const myImage = document.getElementById("myImage");
-    const imageUrl = `images/jisoo.jpeg`;
-    const hoverUrl = "images/love.jpg";
+    const imageUrl = `honey.jpg`;
+    const hoverUrl = "love.jpg";
     myImage.setAttribute("src", imageUrl);
     myImage.setAttribute("data-hover", hoverUrl);
     new Scene();
     canvas.style.display="";
   }
 
-  if(value=="lisa"){
+  if(value=="Ammu"){
 
-    console.log("User entered Lisa");
+    console.log("User entered Ammu");
     const myImage = document.getElementById("myImage");
-    const imageUrl = `images/lisa.jpg`;
-    const hoverUrl = "images/love.jpg";
+    const imageUrl = `Ammu.jpg`;
+    const hoverUrl = "love.jpg";
     myImage.setAttribute("src", imageUrl);
     myImage.setAttribute("data-hover", hoverUrl);
     new Scene();
@@ -33,30 +33,36 @@
 
   }
 
-  if(value=="jennie"){
-    console.log("User entered Jennie");
+  if(value=="Kannama"){
+    console.log("User entered Kannama");
     const myImage = document.getElementById("myImage");
-    const imageUrl = `images/jennie.png`;
-    const hoverUrl = "images/love.jpg";
+    const imageUrl = `Kannama.png`;
+    const hoverUrl = "love.jpg";
     myImage.setAttribute("src", imageUrl);
     myImage.setAttribute("data-hover", hoverUrl);
     new Scene();
     canvas.style.display="";
   }
 
-  if(value=="rose"){
-    console.log("User entered Rose");
+  if(value=="mylove"){
+    console.log("User entered mylove");
     const myImage = document.getElementById("myImage");
-    const imageUrl = `images/rose.jpeg`;
-    const hoverUrl = "images/love.jpg";
+    const imageUrl = `mylove.jpg`;
+    const hoverUrl = "love.jpg";
     myImage.setAttribute("src", imageUrl);
     myImage.setAttribute("data-hover", hoverUrl);
     new Scene();
     canvas.style.display="";
   }
 
-  if(value=="dua"){
-    console.log("User entered dua");
+  if(value=="baby"){
+    console.log("User entered baby");
+    const myImage = document.getElementById("myImage");
+    const imageUrl = `baby.jpg`;
+    const hoverUrl = "love.jpg";
+    myImage.setAttribute("src", imageUrl);
+    myImage.setAttribute("data-hover", hoverUrl);
+    new Scene();
     canvas.style.display="";
   }
 
